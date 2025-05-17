@@ -1,3 +1,4 @@
+#Inicio
 from time import sleep
 from validador_login import *
 from cadastro_contas import *
