@@ -20,6 +20,7 @@ def validar_senha(senha_digitada, user_digitado, contas_existentes):
 def validar_login():
     global valor, cont
     while valor == False:
+        print('='*20,'VALIDANDO LOGIN','='*20)
         user = str(input('Informe o nome do usuario: '))
         senha = str(input('Informe a senha: '))
         print('----------------------------------------------------------')
